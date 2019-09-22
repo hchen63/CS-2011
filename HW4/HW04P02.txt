@@ -1,0 +1,13 @@
+/* Hua Chen CIN:305942655 
+Write a program that plays Rock, Paper, Scissors. 
+*/
+
+import java.util.Scanner;
+
+public class HW04P02 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter 1 for single and 2 for married: ");
+		double relationship = input.nextDouble();		
+		System.out.println("Enter income: ");
+		double income = input.nextDouble();
